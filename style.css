@@ -1,0 +1,70 @@
+*{margin:0;box-sizing: border-box;}
+.GTA{position: absolute;color: rgb(255, 145, 0);z-index:50;font-size: 30px;top: 50px;left: 20%;font-family: 'Reggae One', cursive;}
+.artDirector_1{position: absolute;color: burlywood;z-index: 100;font-size: 0px;top: 400px;left: 680px;font-family: 'Reggae One', cursive;
+   animation-name:Director_1;
+   animation-duration: 6.5s;
+   animation-delay: 4.5s;
+}
+.artDirector_2{position: absolute;color: rgb(76, 72, 104);z-index: 100;font-size: 0px;top: 450px;left: 680px;font-family: 'Roboto', sans-serif;
+   animation-name:Director_1;
+   animation-duration: 6.5s;
+   animation-delay: 4.5s;
+}
+
+.technicalDirector_1{position: absolute;color: burlywood;z-index: 100;font-size: 0px;top: 630px;left: 500px;font-family: 'Reggae One', cursive;
+   animation-name:Director_1;
+   animation-duration: 6.5s;
+   animation-delay: 4.5s;
+}
+.technicalDirector_2{position: absolute;color: rgb(76, 72, 104);z-index: 100;font-size: 0px;top: 680px;left: 500px;font-family: 'Roboto', sans-serif;
+   animation-name:Director_1;
+   animation-duration: 6.5s;
+   animation-delay: 4.5s;
+}
+
+
+.frame_1{width: 1000px;height: 1000px;position: relative;background: black;}
+
+.frame_1lvl_1{clip-path: polygon(10% 0, 62% 1%, 50% 98%, 20% 100%);background:url(https://i.ytimg.com/vi/QytJ2-fIQtk/maxresdefault.jpg);
+   position: absolute;width:0px;height: 400px;top: 29%;left: 205px;background-attachment: fixed;background-position: -600px 200px;
+   animation-name: frame_1, frame_1lvl_1;animation-duration: 11s,8s; animation-delay: 5s,3s;
+}
+.frame_1lvl_2{clip-path: polygon(23% 5%, 51% 4%, 60% 87%, 13% 100%);background:url(https://i.ytimg.com/vi/QytJ2-fIQtk/maxresdefault.jpg);
+   position: absolute;width: 0px;height: 400px;top: 33%;left: 300px;background-attachment: fixed;background-position: -600px 200px;
+   animation-name: frame_1, frame_1lvl_2;animation-duration: 11s,10s; animation-delay: 5s,1s;
+}
+.frame_1lvl_3{clip-path: polygon(20% 3%, 62% 1%, 60% 87%, 30% 87%);background:url(https://i.ytimg.com/vi/QytJ2-fIQtk/maxresdefault.jpg);
+   position: absolute;width:0px;height: 400px;top: 29%;left: 415px;background-attachment: fixed;background-position: -600px 200px;
+   animation-name: frame_1, frame_1lvl_3;animation-duration: 11s,7s; animation-delay: 5s,4s;
+}
+.frame_1lvl_4{clip-path: polygon(23% 1%, 62% 4%, 58% 70%, 21% 66%);background:url(https://i.ytimg.com/vi/QytJ2-fIQtk/maxresdefault.jpg);
+   position: absolute;width: 0px;height: 350px;top: 33%;left: 525px;background-attachment: fixed;background-position: -600px 200px;
+   animation-name: frame_1, frame_1lvl_4;animation-duration: 11s,9s; animation-delay: 5s,2s;
+}
+
+@keyframes Director_1{
+   0%{font-size: 40px}
+   100%{font-size: 40px}
+}
+
+@keyframes frame_1lvl_1{
+   0%{width:250px;}
+   100%{width: 250px;}
+}
+@keyframes frame_1lvl_2{
+   0%{width: 300px;}
+   100%{width: 300px;}
+}
+@keyframes frame_1lvl_3{
+   0%{width: 250px;}
+   100%{width: 250px;}
+}
+@keyframes frame_1lvl_4{
+   0%{width: 250px;}
+   100%{width: 250px;}
+}
+
+@keyframes frame_1{
+   0%{background-position: -600px 200px;}
+   100%{background-position: 200px 50px;transform: rotate3d(3,3,1,10deg);perspective-origin: center;perspective: 500px;}
+}
